@@ -10,12 +10,14 @@ myhex=C2X(mychord)
 mybinary=X2B(myhex)
 myhex2=B2X(mybinary)
 mychord2=X2C(myhex2)   
-file=.stream~new("file.dzordz")
-file~lineout(myhex2)       
-file=.stream~new("file.dzordzbinary")
-file~lineout(mybinary)
-file~close    
-chordf~close
+filebin=.stream~new("file.dzordz")
+filebin~open("replace")
+filebin~charout(myhex2)
+filebin~close       
+filebin=.stream~new("file.dzordzbinary")
+filebin~open("replace")
+filebin~charout(mybinary)
+filebin~close    
 chordf=.stream~new("test.zip")
 mychord=chordf~charin(1,chordf~chars)
 parse arg text
@@ -1555,4 +1557,3 @@ say bs "bits between"
 say bsh "bytes between"
 pull
 exit
-
