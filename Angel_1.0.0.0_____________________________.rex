@@ -1547,7 +1547,7 @@ filebin=.stream~new("file.Angel")
 filebin~open("replace")
 filebin~charout(Angelhps)
 filebin~close
-say jksaa "bytes after"
+say jksaa "bits after"
 say bl "bits before"
 say Time()
 bs=0
