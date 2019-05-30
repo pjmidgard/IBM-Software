@@ -1455,6 +1455,8 @@ end
 end
 else
 do
+Angelhp=Angelhp||Angelhg
+Angelhg=""
 sd3=0
 end
 end
