@@ -221,6 +221,7 @@ if c = 17 then
 do
 Angelhg=asw
 Angelheh=Angelheh||asw
+nm=nm+1
 end
 if c = 16 then
 do
@@ -421,7 +422,6 @@ chF=""
 if couy <> couy1 & couy<>16 & couy1<>16 then
 do
 sd2=1
-nm=nm+1
 if couy=0 then
 do
 if couy1=1 then
@@ -1455,8 +1455,6 @@ end
 end
 else
 do
-Angelhp=Angelhp||Angelhg
-Angelhg=""
 sd3=0
 end
 end
@@ -1477,12 +1475,13 @@ Angelheh=""
 sd1=4 
 sd2=4 
 sd3=4 
-
+nm=0
 do nm=1 to 45
 ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
+nm=0
 fAngelhgs=B2X(fAngelhg)
 fAngelhgss=X2D(fAngelhgs)
 fAngelhgssa=D2X(fAngelhgss)
@@ -1508,6 +1507,7 @@ fAngelhgssasaa=""
 end
 else
 do
+nm=0
 Angelhes="1"
 Angelhp=Angelhp||Angelhes||Angelheh
 Angelhehs=""
