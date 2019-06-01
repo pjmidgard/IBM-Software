@@ -63,6 +63,8 @@ couy1=0
 sdfg="8"
 ck=0
 nm=0
+ghvh="1"
+Angelhps=Angelhps||ghvh
 do j = 1 while chars(file.dzordzbinary) > 0
 parse arg a.1 a.2 a.3 a.4
 do i=1 to 4
@@ -1672,6 +1674,8 @@ uis=B2X(Angelhp)
 uisz=X2C(uis)
 Angelhps=""
 Angelhps=Angelhps||uisz
+ghvh="1"
+Angelhps=Angelhps||ghvh
 jksa=length(Angelhps)
 jksaa=jksa-2
 jksaa=jksaa*8
