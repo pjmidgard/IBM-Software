@@ -1598,7 +1598,7 @@ end
 
 
 ck=ck+1
-if ck = 2295 then
+if ck = 765 then
 do
 ck=0
 nm=0
@@ -1607,7 +1607,7 @@ kai=0
 ghj=0
 if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 then
 do
-cl=cl+9172
+cl=cl+3057
 Angelhp=Angelhp||Angelhehs
 Angelhe=""
 Angelhehs=""
@@ -1616,7 +1616,7 @@ sd1=4
 sd2=4 
 sd3=4 
 nm=0
-do nm=1 to 135
+do nm=1 to 45
 ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
@@ -1648,7 +1648,7 @@ ghj=0
 Angelhehs=""
 Angelhe=""
 Angelheh=""
-cl=cl+9180
+cl=cl+3061
 sd1=4 
 sd2=4
 sd3=4 
