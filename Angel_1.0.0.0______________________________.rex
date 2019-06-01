@@ -1548,15 +1548,66 @@ Angelhg.nm="0000"
 end
 end
 
-if Angelhg.nm="1010" & kai=1 | Angelhg.nm="1011" & kai=1 then
+if Angelhg.nm="1010" & kai=1 then
 do 
 kai=kai+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
-Angelhg.nm="101"
+Angelhg.nm="0000"
 kai=0
-ghj=2
+end
+
+if Angelhg.nm="1011" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0001"
+kai=0
+end
+
+if Angelhg.nm="0000" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0010"
+kai=0
+end
+
+
+if Angelhg.nm="0001" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0011"
+kai=0
+end
+
+if Angelhg.nm="0010" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0000"
+kai=0
+end
+
+
+if Angelhg.nm="0011" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0001"
+kai=0
 end
 
 
