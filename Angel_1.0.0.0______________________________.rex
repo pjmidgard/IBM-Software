@@ -1605,7 +1605,7 @@ nm=0
 ka=0
 kai=0
 ghj=0
-if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 then
+if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 then
 do
 cl=cl+9172
 Angelhp=Angelhp||Angelhehs
@@ -1644,6 +1644,7 @@ else
 do
 nm=0
 Angelhp=Angelhp||Angelheh
+ghj=0
 Angelhehs=""
 Angelhe=""
 Angelheh=""
