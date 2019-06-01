@@ -1548,7 +1548,7 @@ Angelhg.nm="0000"
 end
 end
 
-if Angelhg.nm="1010" & ka=1 | Angelhg.nm="1011" & ka=1 then
+if Angelhg.nm="1010" & kai=1 | Angelhg.nm="1011" & kai=1 then
 do 
 kai=kai+1
 nm=nm-1
