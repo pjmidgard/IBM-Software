@@ -25,6 +25,10 @@ parse arg text
 myhex=C2X(mychord)
 mybinary=X2B(myhex)
 str=''
+kau=0
+kad=0
+kai=0
+kag=0
 Angelh="" 
 Angel="" 
 strjk=""
@@ -65,6 +69,7 @@ sdfg="8"
 ck=0
 nm=0
 ghvh="1"
+sdfa=0
 Angelhps=Angelhps||ghvh
 do j = 1 while chars(file.dzordzbinary) > 0
 parse arg a.1 a.2 a.3 a.4
@@ -1584,12 +1589,12 @@ kah=kah+1
 kau=0
 end
 
-else if Angelhg.nm="1111" & ghj<>2 then
+else if Angelhg.nm="1111" & kau=1 then
 do 
 kau=kau+1
 end
 
-if Angelhg.nm="1010" & kai=1 & ghj<>2 then
+if Angelhg.nm="1010" & kai=1 then
 do 
 ka=ka+1
 nm=nm-1
@@ -1600,41 +1605,41 @@ kai=0
 sdfa=2
 end
 
-else if Angelhg.nm="1111" & ghj<>2 then
+else if Angelhg.nm="1111" & kad=1 then
 do 
-kai=kai+1
+kad=kad+1
 end
 
-if Angelhg.nm="1011" & kai=1 & ghj<>2 then
+if Angelhg.nm="1011" & kai=1 then
 do 
-ka=ka+1
+kad=kad+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
 Angelhg.nm="1110"
-kai=0
+kad=0
 sdfa=2
 end
 
-else if Angelhg.nm="1111" & ghj<>2 then
+else if Angelhg.nm="1111" then
 do 
-kai=kai+1
+kad=kad+1
 end
 
-if Angelhg.nm="1110" & kai=1 & ghj<>2 then
+if Angelhg.nm="1110" & kag=1 then
 do 
-ka=ka+1
+kag=kag+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
 Angelhg.nm="1010"
-kai=0
+kag=0
 sdfa=2
 end
 
-else if Angelhg.nm="1111" & ghj<>2 then
+else if Angelhg.nm="1111"  then
 do 
-kai=kai+1
+kag=kag+1
 end
 
 
@@ -1659,7 +1664,7 @@ ck=0
 kai=0
 ghj=0
 kah=0
-if ka<>3 | sdfa=2 then
+if ka<>3 | sdfa=2 | nm=jkesaz then
 do
 aszx=3
 end
