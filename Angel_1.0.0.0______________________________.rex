@@ -1657,7 +1657,7 @@ end
 
 
 ck=ck+1
-if ka=3 & nm=45 & kah>2 | nm=jkesaz | sdfa=2 then
+if ka=3 & nm=45 & kah>1 | nm=jkesaz | sdfa=2 then
 do
 sdfa=0
 ck=0
