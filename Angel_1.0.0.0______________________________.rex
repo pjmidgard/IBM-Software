@@ -9,8 +9,7 @@ parse arg text
 myhex=C2X(mychord)
 mybinary=X2B(myhex)
 myhex2=B2X(mybinary)
-mychord2=X2C(myhex2)
-jkesaz=length(chars)   
+mychord2=X2C(myhex2)   
 filebin=.stream~new("file.dzordz")
 filebin~open("replace")
 filebin~charout(myhex2)
@@ -25,10 +24,6 @@ parse arg text
 myhex=C2X(mychord)
 mybinary=X2B(myhex)
 str=''
-kau=0
-kad=0
-kai=0
-kag=0
 Angelh="" 
 Angel="" 
 strjk=""
@@ -68,8 +63,8 @@ couy1=0
 sdfg="8"
 ck=0
 nm=0
+kag=0
 ghvh="1"
-sdfa=0
 Angelhps=Angelhps||ghvh
 do j = 1 while chars(file.dzordzbinary) > 0
 parse arg a.1 a.2 a.3 a.4
@@ -1554,93 +1549,92 @@ Angelhg.nm="0000"
 end
 end
 
-
-if Angelhg.nm="0000" & ka=1 & ghj<>2 & ka<>3 then
-do 
-ka=ka+1
-nm=nm-1
-Angelhg.nm="1111"
-nm=nm+1
-Angelhg.nm="101"
-ka=3
-end
-
-
-if Angelhg.nm="1111" & ka=1 & ghj<>2 & ka<>3 then
-do 
-ka=ka+1
-nm=nm-1
-Angelhg.nm="1111"
-nm=nm+1
-Angelhg.nm="101"
-ka=3
-end
-
-else if Angelhg.nm="1111" & ghj<>2 then
-do 
-ka=ka+1
-end
-
-if Angelhg.nm="1111" & ka=1 & ghj<>2  then
-do 
-kalj=3
-kau=kau+1
-kah=kah+1
-kau=0
-end
-
-else if Angelhg.nm="1111" & kau=1 then
-do 
-kau=kau+1
-end
-
 if Angelhg.nm="1010" & kai=1 then
 do 
-ka=ka+1
+kai=kai+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
-Angelhg.nm="1111"
+Angelhg.nm="0000"
 kai=0
-sdfa=2
-end
-
-else if Angelhg.nm="1111" & kad=1 then
-do 
-kad=kad+1
 end
 
 if Angelhg.nm="1011" & kai=1 then
 do 
-kad=kad+1
+kai=kai+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
-Angelhg.nm="1110"
-kad=0
-sdfa=2
+Angelhg.nm="0001"
+kai=0
 end
+
+if Angelhg.nm="0000" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0010"
+kai=0
+end
+
+
+if Angelhg.nm="0001" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0011"
+kai=0
+end
+
+if Angelhg.nm="0010" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0000"
+kai=0
+end
+
+
+if Angelhg.nm="0011" & kai=1 then
+do 
+kai=kai+1
+nm=nm-1
+Angelhg.nm="1111"
+nm=nm+1
+Angelhg.nm="0001"
+kai=0
+end
+
 
 else if Angelhg.nm="1111" then
 do 
-kad=kad+1
+kai=kai+1
 end
 
-if Angelhg.nm="1110" & kag=1 then
+if Angelhg.nm="1111" & ka=1 & ka<>3 then
 do 
-kag=kag+1
+ka=ka+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
-Angelhg.nm="1010"
-kag=0
-sdfa=2
+Angelhg.nm="101"
+ka=3
 end
 
-else if Angelhg.nm="1111"  then
+
+if Angelhg.nm="1111" then
 do 
+ka=ka+1
 kag=kag+1
 end
+
+
 
 
 
@@ -1657,19 +1651,16 @@ end
 
 
 ck=ck+1
-if ka=3 & nm=45 & kah>1 | nm=jkesaz | sdfa=2 then
+if ck = 765 then
 do
-sdfa=0
 ck=0
+nm=0
+ka=0
 kai=0
 ghj=0
-kah=0
-if ka<>3 | sdfa=2 | nm=jkesaz then
+if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kag>1 then
 do
-aszx=3
-end
-if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & ka=3 & sdfa<>2 & aszx<>3 then
-do
+kag=0
 cl=cl+3057
 Angelhp=Angelhp||Angelhehs
 Angelhe=""
@@ -1678,14 +1669,14 @@ Angelheh=""
 sd1=4 
 sd2=4 
 sd3=4 
-do nm=1 to nm*17
+nm=0
+do nm=1 to 45
 ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0
-ka=0
-jke=length(fAngelhg)
+jke=length(fAngelhgssa)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
 Angelhp=Angelhp||fAngelhg
@@ -1706,8 +1697,7 @@ end
 else
 do
 nm=0
-ka=0
-aszx=0
+kag=0
 Angelhp=Angelhp||Angelheh
 ghj=0
 Angelhehs=""
