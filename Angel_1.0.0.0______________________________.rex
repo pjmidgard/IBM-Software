@@ -1616,14 +1616,14 @@ do
 kai=kai+1
 end
 
-if Angelhg.nm="1111" & ka=1 & ghj<>2 then
+if Angelhg.nm="1111" & ka=1 & ghj<>2 & ka<>3 then
 do 
 ka=ka+1
 nm=nm-1
 Angelhg.nm="1111"
 nm=nm+1
 Angelhg.nm="101"
-ka=0
+ka=3
 end
 
 
@@ -1673,7 +1673,7 @@ fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0
-jke=length(fAngelhgssa)
+jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
 Angelhp=Angelhp||fAngelhg
