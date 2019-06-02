@@ -1658,7 +1658,7 @@ nm=0
 ka=0
 kai=0
 ghj=0
-if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kag>1 then
+if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kag>2 then
 do
 kag=0
 cl=cl+3057
