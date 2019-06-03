@@ -1662,13 +1662,43 @@ kags=kags+1
 kag=0
 end
 
-if Angelhg.nm="1111" & kav=1 then
+if Angelhg.nm="1010" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
 ljk.nm="1111"
 nm=nm+1
 ljk.nm="1111"
+kav=0
+end
+
+if Angelhg.nm="0001" then
+do 
+kav=kav+1
+end
+
+if Angelhg.nm="1011" & kav=1 then
+do 
+ka=ka+1
+nm=nm-1
+ljk.nm="1111"
+nm=nm+1
+ljk.nm="1100"
+kav=0
+end
+
+if Angelhg.nm="0001" then
+do 
+kav=kav+1
+end
+
+if Angelhg.nm="1100" & kav=1 then
+do 
+ka=ka+1
+nm=nm-1
+ljk.nm="1111"
+nm=nm+1
+ljk.nm="1011"
 kav=0
 end
 
@@ -1721,7 +1751,7 @@ ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
-nm=0
+nm=0 
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
