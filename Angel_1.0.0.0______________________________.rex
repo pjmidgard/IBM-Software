@@ -1648,27 +1648,33 @@ ljk.nm="0000"
 ka=3
 end
 
-if Angelhg.nm="0000" & ka=1 & ka<>3 then
-do 
-ka=ka+1
-nm=nm-1
-ljk.nm="1111"
-nm=nm+1
-ljk.nm="1111"
-ka=3
-end
-
-
 if Angelhg.nm="1111" then
 do 
 ka=ka+1
 kag=kag+1
 end
 
+
 if Angelhg.nm="1111" & kag=1 then
 do
 kags=kags+1
 kag=0
+end
+
+if Angelhg.nm="1111" & ka=1 & ka<>3 then
+do 
+ka=ka+1
+nm=nm-1
+ljk.nm="1111"
+nm=nm+1
+ljk.nm="0000"
+ka=3
+end
+
+if Angelhg.nm="0001" then
+do 
+ka=ka+1
+kag=kag+1
 end
 
 
