@@ -1606,7 +1606,6 @@ Angelhg.nm="0001"
 ljk.nm="1111"
 nm=nm+1
 Angelhg.nm="101"
-say Angelhg.nm
 ljk.nm="0000"
 ka=3
 end
@@ -1703,8 +1702,6 @@ fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0 
-say fAngelhg "1"
-pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
