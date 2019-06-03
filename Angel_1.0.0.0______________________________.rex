@@ -1672,11 +1672,6 @@ ljk.nm="1111"
 kav=0
 end
 
-if Angelhg.nm="0001" then
-do 
-kav=kav+1
-end
-
 if Angelhg.nm="1011" & kav=1 then
 do 
 ka=ka+1
@@ -1685,11 +1680,6 @@ ljk.nm="1111"
 nm=nm+1
 ljk.nm="1100"
 kav=0
-end
-
-if Angelhg.nm="0001" then
-do 
-kav=kav+1
 end
 
 if Angelhg.nm="1100" & kav=1 then
