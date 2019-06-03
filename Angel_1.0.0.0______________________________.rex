@@ -445,7 +445,7 @@ chF=""
 
 
 
-if couy <> couy1 & couy<>16 & couy1<>16 then
+if couy <> couy1 & couy<>16 & couy1<>16 | couy = couy1 & couy<>16 & couy1<>16 then
 do
 sd2=1
 if couy=0 then
@@ -1757,5 +1757,4 @@ bsh=bs%8
 say bs "bits between"
 say bsh "bytes between"
 pull
-
 exit
