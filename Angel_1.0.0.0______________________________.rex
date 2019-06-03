@@ -1721,6 +1721,8 @@ ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
+say fAngelhg "1"
+pull
 nm=0
 jke=length(fAngelhgssa)
 fAngelhgssaaa=D2X(jke)
@@ -1756,10 +1758,12 @@ sd1=4
 sd2=4 
 sd3=4 
 nm=0
-do nm=1 to 45
+nm=45
+do nx=1 to 45
 ah.nm = ljk.nm
 fAngelhg=fAngelhg||ah.nm
 ljk.nm=""
+nm=nm-1
 end
 nm=0
 jke=length(fAngelhgssa)
