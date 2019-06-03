@@ -1557,6 +1557,36 @@ end
 
 ljk.nm=Angelhg.nm
 
+
+if Angelhg.nm="1111" & ka=1 & ka<>3 then
+do 
+ka=ka+1
+nm=nm-1
+Angelhg.nm="0001"
+ljk.nm="1111"
+nm=nm+1
+Angelhg.nm="101"
+ljk.nm="0000"
+ka=3
+end
+
+if Angelhg.nm="1111" then
+do 
+ka=ka+1
+end
+
+
+if Angelhg.nm="1111" & kag=1 then
+do
+kags=kags+1
+kag=0
+end
+
+if Angelhg.nm="1111" then
+do 
+kag=kag+1
+end
+
 if Angelhg.nm="1010" & kai=1 then
 do 
 kai=kai+1
@@ -1598,30 +1628,7 @@ do
 kai=kai+1
 end
 
-if Angelhg.nm="1111" & ka=1 & ka<>3 then
-do 
-ka=ka+1
-nm=nm-1
-Angelhg.nm="0001"
-ljk.nm="1111"
-nm=nm+1
-Angelhg.nm="101"
-ljk.nm="0000"
-ka=3
-end
 
-if Angelhg.nm="1111" then
-do 
-ka=ka+1
-kag=kag+1
-end
-
-
-if Angelhg.nm="1111" & kag=1 then
-do
-kags=kags+1
-kag=0
-end
 
 else if Angelhg.nm="1010" & kav=1 then
 do 
@@ -1633,7 +1640,7 @@ ljk.nm="0000"
 kav=0
 end
 
-if Angelhg.nm="1011" & kav=1 then
+else if Angelhg.nm="1011" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
@@ -1657,7 +1664,6 @@ else if Angelhg.nm="0001" then
 do 
 kav=kav+1
 end
-
 
 
 
