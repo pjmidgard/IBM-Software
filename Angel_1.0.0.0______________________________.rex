@@ -1707,7 +1707,7 @@ ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
-nm=0 
+nm=0
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
@@ -1734,10 +1734,6 @@ kags=0
 kag=0
 kags=0
 cl=cl+3057
-Angelhp=Angelhp||Angelhehs
-Angelhe=""
-Angelhehs=""
-Angelheh=""
 sd1=4 
 sd2=4 
 sd3=4 
@@ -1753,7 +1749,18 @@ nm=0
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
+if jke=0 then
+do 
+Angelhp=Angelhp||Angelheh
+end
+else
+do
+Angelhp=Angelhp||Angelhehs
+Angelhe=""
+Angelhehs=""
+Angelheh=""
 Angelhp=Angelhp||fAngelhg
+end
 fAngelhg=""
 fAngelhgs=""
 fAngelhgss=""
