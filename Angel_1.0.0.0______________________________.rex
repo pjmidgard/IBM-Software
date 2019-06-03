@@ -1629,7 +1629,7 @@ ka=ka+1
 nm=nm-1
 ljk.nm="1111"
 nm=nm+1
-ljk.nm="1111"
+ljk.nm="0000"
 kav=0
 end
 
@@ -1639,17 +1639,17 @@ ka=ka+1
 nm=nm-1
 ljk.nm="1111"
 nm=nm+1
-ljk.nm="1100"
+ljk.nm="1111"
 kav=0
 end
 
-if Angelhg.nm="1100" & kav=1 then
+if Angelhg.nm="0000" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
 ljk.nm="1111"
 nm=nm+1
-ljk.nm="1011"
+ljk.nm="1010"
 kav=0
 end
 
