@@ -1721,8 +1721,6 @@ ah.nm = Angelhg.nm
 fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
-say fAngelhg "1"
-pull
 nm=0
 jke=length(fAngelhgssa)
 fAngelhgssaaa=D2X(jke)
