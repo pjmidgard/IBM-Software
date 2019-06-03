@@ -67,7 +67,7 @@ ck=0
 nm=0
 kag=0
 ghvh="1"
-Angelhps=Angelhps||ghvh
+Angelhehs=Angelhehs||ghvh
 do j = 1 while chars(file.dzordzbinary) > 0
 parse arg a.1 a.2 a.3 a.4
 do i=1 to 4
@@ -1722,7 +1722,7 @@ fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0
-jke=length(fAngelhgssa)
+jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
 Angelhp=Angelhp||fAngelhg
@@ -1764,7 +1764,7 @@ ljk.nm=""
 nm=nm-1
 end
 nm=0
-jke=length(fAngelhgssa)
+jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
 Angelhp=Angelhp||fAngelhg
