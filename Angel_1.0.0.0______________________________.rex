@@ -1668,7 +1668,7 @@ ka=ka+1
 nm=nm-1
 ljk.nm="1111"
 nm=nm+1
-ljk.nm="0000"
+ljk.nm="1111"
 kav=0
 end
 
@@ -1762,6 +1762,8 @@ fAngelhg=fAngelhg||ah.nm
 ljk.nm=""
 end
 nm=0
+say fAngelhg
+pull
 jke=length(fAngelhgssa)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
