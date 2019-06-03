@@ -445,11 +445,15 @@ chF=""
 
 
 
-if couy <> couy1 & couy<>16 & couy1<>16 then
+if couy <> couy1 & couy<>16 & couy1<>16 | couy = couy1 & couy<>16 & couy1<>16 then
 do
 sd2=1
 if couy=0 then
 do
+if aqwes=0 then
+do
+Angelhg.nm="0000"
+end
 if aqwes=1 then
 do
 Angelhg.nm="0001"
