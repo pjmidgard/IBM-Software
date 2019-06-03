@@ -1576,8 +1576,8 @@ nm=nm-1
 Angelhg.nm="1111"
 ljk.nm="1111"
 nm=nm+1
-Angelhg.nm="0001"
-ljk.nm="0001"
+Angelhg.nm="1111"
+ljk.nm="1111"
 kai=0
 end
 
@@ -1588,49 +1588,10 @@ nm=nm-1
 Angelhg.nm="1111"
 ljk.nm="1111"
 nm=nm+1
-Angelhg.nm="0010"
-ljk.nm="0010"
+Angelhg.nm="1010"
+ljk.nm="1010"
 kai=0
 end
-
-
-if Angelhg.nm="0001" & kai=1 then
-do 
-kai=kai+1
-nm=nm-1
-Angelhg.nm="1111"
-ljk.nm="1111"
-nm=nm+1
-Angelhg.nm="0011"
-ljk.nm="0011"
-kai=0
-end
-
-if Angelhg.nm="0010" & kai=1 then
-do 
-kai=kai+1
-nm=nm-1
-Angelhg.nm="1111"
-ljk.nm="1111"
-nm=nm+1
-Angelhg.nm="0000"
-ljk.nm="0000"
-kai=0
-end
-
-
-if Angelhg.nm="0011" & kai=1 then
-do 
-kai=kai+1
-nm=nm-1
-Angelhg.nm="1111"
-ljk.nm="1111"
-nm=nm+1
-Angelhg.nm="0001"
-ljk.nm="0001"
-kai=0
-end
-
 
 else if Angelhg.nm="0001" then
 do 
