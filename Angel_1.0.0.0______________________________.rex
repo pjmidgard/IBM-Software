@@ -24,6 +24,7 @@ parse arg text
 myhex=C2X(mychord)
 mybinary=X2B(myhex)
 str=''
+kav=0
 kags=0
 Angelh="" 
 Angel="" 
@@ -1661,20 +1662,19 @@ kags=kags+1
 kag=0
 end
 
-if Angelhg.nm="1111" & ka=1 & ka<>3 then
+if Angelhg.nm="1111" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
 ljk.nm="1111"
 nm=nm+1
 ljk.nm="0000"
-ka=3
+kav=0
 end
 
 if Angelhg.nm="0001" then
 do 
-ka=ka+1
-kag=kag+1
+kav=kav+1
 end
 
 
@@ -1697,6 +1697,7 @@ end
 ck=ck+1
 if ck = 765 then
 do
+kav=0
 ck=0
 nm=0
 ka=0
