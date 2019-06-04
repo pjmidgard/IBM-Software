@@ -1681,8 +1681,6 @@ fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0
-say fAngelhg "1"
-pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
@@ -1722,8 +1720,6 @@ ljk.nm=""
 nm=nm-1
 end
 nm=0
-say fAngelhg "2"
-pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
