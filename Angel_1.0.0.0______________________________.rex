@@ -33,7 +33,6 @@ Angelhk=""
 strj=""
 c=0
 b=""
-
 ch0="8" ch1="8" ch2="8" ch3="8" ch4="8"
 ch5="8" ch6="8" ch7="8"
 bl=0
@@ -1637,17 +1636,7 @@ ka=ka+1
 nm=nm-1
 ljk.nm="0000"
 nm=nm+1
-ljk.nm="0000"
-kav=0
-end
-
-else if Angelhg.nm="1011" & kav=1 then
-do 
-ka=ka+1
-nm=nm-1
 ljk.nm="1111"
-nm=nm+1
-ljk.nm="0000"
 kav=0
 end
 
