@@ -1568,8 +1568,6 @@ end
 
 if Angelhg.nm="1111" then
 do 
-Angelhg.nm="0001"
-ljk.nm="1111"
 ka=ka+1
 end
 
@@ -1596,7 +1594,6 @@ end
 else if Angelhg.nm="1011" & kai=1 then
 do 
 kai=kai+1
-nm=nm+1
 Angelhg.nm="1111"
 ljk.nm="1111"
 kai=0
@@ -1612,8 +1609,6 @@ end
 
 else if Angelhg.nm="0001" then
 do 
-Angelhg.nm="1111"
-ljk.nm="1111"
 kai=kai+1
 end
 
@@ -1642,7 +1637,6 @@ end
 
 else if Angelhg.nm="0001" then
 do 
-ljk.nm="1111"
 kav=kav+1
 end
 
