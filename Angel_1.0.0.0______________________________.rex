@@ -66,6 +66,7 @@ sdfg="8"
 ck=0
 nm=0
 kag=0
+kagsf=0
 ghvh="1"
 Angelhehs=Angelhehs||ghvh
 do j = 1 while chars(file.dzordzbinary) > 0
@@ -1568,6 +1569,7 @@ do
 Angelhg.nm="0001"
 ljk.nm="1111"
 nm=nm+1
+kagsf=kagsf+1
 Angelhg.nm="101"
 ljk.nm="0000"
 ka=3
@@ -1659,10 +1661,11 @@ nm=0
 ka=0
 kai=0
 ghj=0
-if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kags>2 then
+if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kags>2 & kagsf>0 then
 do
 kag=0
 kags=0
+kagsf=0
 cl=cl+3057
 Angelhp=Angelhp||Angelhehs
 Angelhe=""
@@ -1678,6 +1681,8 @@ fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0
+say fAngelhg "1"
+pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
@@ -1708,6 +1713,7 @@ sd1=4
 sd2=4 
 sd3=4 
 nm=0
+kagsf=0
 nm=45
 do nx=1 to 45
 ah.nm = ljk.nm
@@ -1716,6 +1722,8 @@ ljk.nm=""
 nm=nm-1
 end
 nm=0
+say fAngelhg "2"
+pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
