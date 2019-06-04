@@ -1596,6 +1596,7 @@ end
 else if Angelhg.nm="1011" & kai=1 then
 do 
 kai=kai+1
+nm=nm+1
 Angelhg.nm="1111"
 ljk.nm="1111"
 kai=0
@@ -1641,8 +1642,8 @@ end
 
 else if Angelhg.nm="0001" then
 do 
-kav=kav+1
 ljk.nm="1111"
+kav=kav+1
 end
 
 
@@ -1669,7 +1670,7 @@ nm=0
 ka=0
 kai=0
 ghj=0
-if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kags>2 then
+if sd2 = 1 & couy<>16 & couy1<>16 & sd3<>0 & ghj<>2 & kags>1 then
 do
 kag=0
 kags=0
