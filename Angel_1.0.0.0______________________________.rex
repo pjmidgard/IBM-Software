@@ -1587,6 +1587,7 @@ end
 
 if Angelhg.nm="1010" & kai=1 then
 do 
+kai=kai+1
 Angelhg.nm="0000"
 ljk.nm="0000"
 kai=0
@@ -1640,8 +1641,8 @@ end
 
 else if Angelhg.nm="0001" then
 do 
-ljk.nm="1111"
 kav=kav+1
+ljk.nm="1111"
 end
 
 
@@ -1687,8 +1688,6 @@ fAngelhg=fAngelhg||ah.nm
 Angelhg.nm=""
 end
 nm=0
-say fAngelhg "1"
-pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
@@ -1727,8 +1726,6 @@ ljk.nm=""
 nm=nm-1
 end
 nm=0
-say fAngelhg "2"
-pull
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
