@@ -1607,7 +1607,7 @@ Angelhg.nm="1111"
 ljk.nm="1111"
 nm=nm+1
 Angelhg.nm="1111"
-ljk.nm="1010"
+ljk.nm="1111"
 kai=0
 end
 
@@ -1628,33 +1628,6 @@ do
 kai=kai+1
 end
 
-
-
-else if Angelhg.nm="1010" & kav=1 then
-do 
-ka=ka+1
-nm=nm-1
-ljk.nm="1111"
-nm=nm+1
-ljk.nm="1111"
-kav=0
-end
-
-else if Angelhg.nm="0000" & kav=1 then
-do 
-ka=ka+1
-nm=nm-1
-ljk.nm="1111"
-nm=nm+1
-ljk.nm="1010"
-kav=0
-end
-
-
-else if Angelhg.nm="1111" then
-do 
-kav=kav+1
-end
 
 
 
