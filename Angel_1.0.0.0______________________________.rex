@@ -17,7 +17,8 @@ filebin~close
 filebin=.stream~new("file.dzordzbinary")
 filebin~open("replace")
 filebin~charout(mybinary)
-filebin~close    
+filebin~close
+kal=0    
 chordf=.stream~new("test.zip")
 mychord=chordf~charin(1,chordf~chars)
 parse arg text
@@ -1564,7 +1565,7 @@ do
 ka=ka+1
 nm=nm-1
 kags=kags+1
-if Angelhg.nm="1111" & ka<>3 then
+if Angelhg.nm="1111" & kal<>3 then
 do 
 Angelhg.nm="0001"
 ljk.nm="1111"
@@ -1572,7 +1573,7 @@ nm=nm+1
 kagsf=kagsf+1
 Angelhg.nm="101"
 ljk.nm="0000"
-ka=3
+kal=3
 end
 else
 do
@@ -1655,6 +1656,7 @@ end
 ck=ck+1
 if ck = 765 then
 do
+kal=0
 kav=0
 ck=0
 nm=0
