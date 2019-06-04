@@ -1603,8 +1603,8 @@ else if Angelhg.nm="1011" & kai=1 then
 do 
 kai=kai+1
 nm=nm-1
-Angelhg.nm="0001"
-ljk.nm="0001"
+Angelhg.nm="1111"
+ljk.nm="1111"
 nm=nm+1
 Angelhg.nm="1111"
 ljk.nm="1111"
