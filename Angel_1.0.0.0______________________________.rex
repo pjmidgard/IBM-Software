@@ -1,5 +1,6 @@
 numeric digits 10000
 usertime=""
+
 say "Please, enter the file."
 pull usertime
 say Time()
