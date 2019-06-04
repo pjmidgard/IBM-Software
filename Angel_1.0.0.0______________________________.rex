@@ -1564,7 +1564,7 @@ do
 ka=ka+1
 nm=nm-1
 kags=kags+1
-if Angelhg.nm="1111" then
+if Angelhg.nm="1111" & ka<>3 then
 do 
 Angelhg.nm="0001"
 ljk.nm="1111"
