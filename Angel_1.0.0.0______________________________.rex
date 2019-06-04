@@ -1634,7 +1634,7 @@ else if Angelhg.nm="1010" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
-ljk.nm="0000"
+ljk.nm="1111"
 nm=nm+1
 ljk.nm="1111"
 kav=0
@@ -1644,7 +1644,7 @@ else if Angelhg.nm="0000" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
-ljk.nm="0000"
+ljk.nm="1111"
 nm=nm+1
 ljk.nm="1010"
 kav=0
@@ -1655,6 +1655,7 @@ else if Angelhg.nm="1111" then
 do 
 kav=kav+1
 end
+
 
 
 
