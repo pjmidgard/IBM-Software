@@ -1,6 +1,5 @@
 numeric digits 10000
 usertime=""
-
 say "Please, enter the file."
 pull usertime
 say Time()
@@ -1608,7 +1607,7 @@ Angelhg.nm="1111"
 ljk.nm="1111"
 nm=nm+1
 Angelhg.nm="1111"
-ljk.nm="1111"
+ljk.nm="1010"
 kai=0
 end
 
@@ -1656,6 +1655,7 @@ else if Angelhg.nm="1111" then
 do 
 kav=kav+1
 end
+
 
 
 
