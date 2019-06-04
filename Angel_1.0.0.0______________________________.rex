@@ -1591,8 +1591,8 @@ if Angelhg.nm="1010" & kai=1 then
 do 
 kai=kai+1
 nm=nm-1
-Angelhg.nm="1111"
-ljk.nm="1111"
+Angelhg.nm="0001"
+ljk.nm="0001"
 nm=nm+1
 Angelhg.nm="0000"
 ljk.nm="0000"
@@ -1603,8 +1603,8 @@ else if Angelhg.nm="1011" & kai=1 then
 do 
 kai=kai+1
 nm=nm-1
-Angelhg.nm="1111"
-ljk.nm="1111"
+Angelhg.nm="0001"
+ljk.nm="0001"
 nm=nm+1
 Angelhg.nm="1111"
 ljk.nm="1111"
@@ -1615,8 +1615,8 @@ else if Angelhg.nm="0000" & kai=1 then
 do 
 kai=kai+1
 nm=nm-1
-Angelhg.nm="1111"
-ljk.nm="1111"
+Angelhg.nm="0001"
+ljk.nm="0001"
 nm=nm+1
 Angelhg.nm="1010"
 ljk.nm="1010"
@@ -1634,7 +1634,7 @@ else if Angelhg.nm="1010" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
-ljk.nm="1111"
+ljk.nm="0000"
 nm=nm+1
 ljk.nm="0000"
 kav=0
@@ -1644,7 +1644,7 @@ else if Angelhg.nm="1011" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
-ljk.nm="1111"
+ljk.nm="0000"
 nm=nm+1
 ljk.nm="1111"
 kav=0
@@ -1654,13 +1654,14 @@ else if Angelhg.nm="0000" & kav=1 then
 do 
 ka=ka+1
 nm=nm-1
-ljk.nm="1111"
+ljk.nm="0000"
 nm=nm+1
 ljk.nm="1010"
 kav=0
 end
 
-else if Angelhg.nm="0001" then
+
+else if Angelhg.nm="1111" then
 do 
 kav=kav+1
 end
