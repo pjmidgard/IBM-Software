@@ -1661,7 +1661,7 @@ end
 
 
 ck=ck+1
-if ck = 765 then
+if ck = 135 then
 do
 kal=0
 kav=0
