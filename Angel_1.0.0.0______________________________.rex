@@ -1560,6 +1560,9 @@ end
 ljk.nm=Angelhg.nm
 
 
+
+
+
 if Angelhg.nm="1111" then
 do 
 ka=ka+1
@@ -1581,62 +1584,66 @@ nm=nm+1
 end
 end
 
-if Angelhg.nm="1010" & kai=1 then
+else if Angelhg.nm="0000" then
 do 
-kai=kai+1
-Angelhg.nm="0000"
-ljk.nm="0000"
-kai=0
+nm=nm-1
+if Angelhg.nm="1111" then
+do 
+ljk.nm="1111"
+nm=nm+1
+ljk.nm="1111"
+end
+else
+do
+nm=nm+1
+end
 end
 
-else if Angelhg.nm="1011" & kai=1 then
+else if Angelhg.nm="1010" then
 do 
-kai=kai+1
+nm=nm-1
+if Angelhg.nm="0001" then
+do 
 Angelhg.nm="1111"
-ljk.nm="1111"
-kai=0
+nm=nm+1
+Angelhg.nm="1111"
+end
+else
+do
+nm=nm+1
+end
 end
 
-else if Angelhg.nm="0000" & kai=1 then
+else if Angelhg.nm="1011" then
 do 
-kai=kai+1
-Angelhg.nm="1010"
-ljk.nm="1010"
-kai=0
-end
-
-else if Angelhg.nm="0001" then
+nm=nm-1
+if Angelhg.nm="0001" then
 do 
-kai=kai+1
+Angelhg.nm="0000"
+nm=nm+1
+Angelhg.nm="1111"
+end
+else
+do
+nm=nm+1
+end
 end
 
-
-
-else if Angelhg.nm="1010" & kav=1 then
+else if Angelhg.nm="1011" then
 do 
-ka=ka+1
-ljk.nm="0000"
-kav=0
+nm=nm-1
+if Angelhg.nm="0000" then
+do 
+Angelhg.nm="0001"
+nm=nm+1
+Angelhg.nm="1111"
+end
+else
+do
+nm=nm+1
+end
 end
 
-else if Angelhg.nm="1011" & kav=1 then
-do 
-ka=ka+1
-ljk.nm="1111"
-kav=0
-end
-
-else if Angelhg.nm="0000" & kav=1 then
-do 
-ka=ka+1
-ljk.nm="1010"
-kav=0
-end
-
-else if Angelhg.nm="0001" then
-do 
-kav=kav+1
-end
 
 
 
@@ -1725,7 +1732,7 @@ nm=0
 jke=length(fAngelhg)
 fAngelhgssaaa=D2X(jke)
 fAngelhgssasaa=X2B(fAngelhgssaa)
-if jke=0 then
+if couy=16 | couy1=16 then
 do 
 Angelhp=Angelhp||Angelheh
 end
