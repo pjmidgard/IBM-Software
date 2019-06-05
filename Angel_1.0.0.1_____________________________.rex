@@ -1653,7 +1653,7 @@ if Angelhg.nm="0001" then
 do 
 ljka.nm="1111"
 nm=nm+1
-ljka.nm="1111"
+ljka.nm="111111111111"
 end
 else
 do
