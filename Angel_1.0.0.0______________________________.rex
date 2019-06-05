@@ -237,18 +237,18 @@ Angel=""
 chF="F"
 aqwes=15
 end
-if c < 17 then
+if c < 3 then
 do
 Angelheh=Angelheh||asw
 Angelhehs=Angelhehs||asw
 end
-if c = 17 then
+if c = 3 then
 do
 Angelhg=aqwes
 Angelheh=Angelheh||asw
 nm=nm+1
 end
-if c = 16 then
+if c = 2 then
 do
 if ch0 <> '0' then
 do
@@ -339,7 +339,7 @@ end
 
 
 end
-if c = 17 then
+if c = 3 then
 do
 c=0
 if ch0 = '0' then
