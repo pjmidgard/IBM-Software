@@ -69,6 +69,10 @@ nm=0
 kag=0
 kagsf=0
 ghvh="1"
+kagsa=0
+kagsfa=0
+kali=0
+ljka.nm=""
 Angelhehs=Angelhehs||ghvh
 do j = 1 while chars(file.dzordzbinary) > 0
 parse arg a.1 a.2 a.3 a.4
@@ -1558,7 +1562,7 @@ end
 end
 
 ljk.nm=Angelhg.nm
-
+ljka.nm=Angelhg.nm
 
 
 
@@ -1569,14 +1573,55 @@ ka=ka+1
 nm=nm-1
 kags=kags+1
 if Angelhg.nm="1111" & kal<>3 then
+do
+nm=nm+2
+if Angelhg.nm="0000" | Angelhg.nm="0001" | Angelhg.nm="0001" | Angelhg.nm="0010" | Angelhg.nm="0011" | Angelhg.nm="0100" | Angelhg.nm="0101" | Angelhg.nm="0110" | Angelhg.nm="0111" then
 do 
+nm=nm-2
 Angelhg.nm="0001"
 ljk.nm="1111"
+ljka.nm="1111"
 nm=nm+1
 kagsf=kagsf+1
 Angelhg.nm="101"
 ljk.nm="0000"
+ljka.nm="1111"
 kal=3
+end
+end
+else
+do
+nm=nm+1
+end
+end
+
+else if ljk.nm="0001" then
+do 
+ka=ka+1
+nm=nm-1
+kagsa=kagsa+1
+if ljk.nm="1010" & kali<>3 then
+do 
+nm=nm+1
+kagsfa=kagsfa+1
+kali=3
+end
+else
+do
+nm=nm+1
+end
+end
+
+else if ljk.nm="0001" then
+do 
+ka=ka+1
+nm=nm-1
+kagsa=kagsa+1
+if ljk.nm="1011" & kali<>3 then
+do 
+nm=nm+1
+kagsfa=kagsfa+1
+kali=3
 end
 else
 do
@@ -1590,8 +1635,10 @@ nm=nm-1
 if Angelhg.nm="1111" then
 do 
 ljk.nm="1111"
+ljka.nm="1111"
 nm=nm+1
-ljk.nm="1111"
+ljk.nm="11111111"
+ljka.nm="11111111"
 end
 else
 do
@@ -1604,24 +1651,9 @@ do
 nm=nm-1
 if Angelhg.nm="0001" then
 do 
-Angelhg.nm="1111"
+ljka.nm="1111"
 nm=nm+1
-Angelhg.nm="1111"
-end
-else
-do
-nm=nm+1
-end
-end
-
-else if Angelhg.nm="1011" then
-do 
-nm=nm-1
-if Angelhg.nm="0001" then
-do 
-Angelhg.nm="0000"
-nm=nm+1
-Angelhg.nm="1111"
+ljka.nm="1111"
 end
 else
 do
@@ -1675,6 +1707,9 @@ do
 kag=0
 kags=0
 kagsf=0
+kagsa=0
+kagsfa=0
+kali=0
 cl=cl+3057
 Angelhp=Angelhp||Angelhehs
 Angelhe=""
@@ -1706,8 +1741,71 @@ fAngelhgssasaa=""
 
 
 
+end
+
+else if couy<>16 & couy1<>16 & kagsa>4 & kagsfa>0 then
+do
+
+
+nm=0
+kag=0
+kags=0
+kag=0
+kags=0
+cl=cl+3057
+sd1=4 
+sd2=4 
+sd3=4 
+nm=0
+kagsa=0
+kagsfa=0
+kali=0
+kagsf=0
+nm=45
+do nx=1 to 45
+ah.nm = ljka.nm
+fAngelhg=fAngelhg||ah.nm
+ljka.nm=""
+nm=nm-1
+end
+nm=0
+jke=length(fAngelhg)
+fAngelhgssaaa=D2X(jke)
+fAngelhgssasaa=X2B(fAngelhgssaa)
+if couy=16 | couy1=16 then
+do 
+Angelhp=Angelhp||Angelheh
+end
+else
+do
+Angelhp=Angelhp||Angelhehs
+Angelhe=""
+Angelhehs=""
+Angelheh=""
+Angelhp=Angelhp||fAngelhg
+end
+fAngelhg=""
+fAngelhgs=""
+fAngelhgss=""
+fAngelhgssa=""
+fAngelhgssas=""
+fAngelhgssaa=""
+fAngelhgssaa=""
+fAngelhgssaaa=""
+fAngelhgssasaa=""
+ghj=0
+Angelhehs=""
+Angelhe=""
+Angelheh=""
+cl=cl+3061
+sd1=4 
+sd2=4
+sd3=4 
+
+
 
 end
+
 else
 do
 nm=0
@@ -1720,6 +1818,9 @@ sd1=4
 sd2=4 
 sd3=4 
 nm=0
+kagsa=0
+kagsfa=0
+kali=0
 kagsf=0
 nm=45
 do nx=1 to 45
