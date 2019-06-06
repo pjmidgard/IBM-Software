@@ -1584,8 +1584,8 @@ ljka.nm="1111"
 nm=nm+1
 kagsf=kagsf+1
 Angelhg.nm="101"
-ljk.nm="1111"
-ljka.nm="1111"
+ljk.nm="0000"
+ljka.nm="0000"
 kal=3
 end
 end
