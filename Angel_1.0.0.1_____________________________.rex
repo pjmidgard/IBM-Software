@@ -1572,7 +1572,7 @@ do
 ka=ka+1
 nm=nm-1
 kags=kags+1
-if Angelhg.nm="1111" & kal<>3 then
+if Angelhg.nm="1111" then
 do
 nm=nm+2
 if Angelhg.nm="0000" | Angelhg.nm="0001" | Angelhg.nm="0001" | Angelhg.nm="0010" | Angelhg.nm="0011" | Angelhg.nm="0100" | Angelhg.nm="0101" | Angelhg.nm="0110" | Angelhg.nm="0111" then
@@ -1604,7 +1604,7 @@ if ljk.nm="1010" & kali<>3 then
 do 
 ljka.nm="1111"
 nm=nm+1
-ljka.nm="111110"
+ljka.nm="11110"
 kagsfa=kagsfa+1
 kali=3
 end
@@ -1614,22 +1614,7 @@ nm=nm+1
 end
 end
 
-if ljk.nm="0001" then
-do 
-ka=ka+1
-nm=nm-1
-kagsa=kagsa+1
-if ljk.nm="1011" & kali<>3 then
-do 
-nm=nm+1
-kagsfa=kagsfa+1
-kali=3
-end
-else
-do
-nm=nm+1
-end
-end
+
 
 if Angelhg.nm="0000" then
 do 
@@ -1639,8 +1624,8 @@ do
 ljk.nm="1111"
 ljka.nm="1111"
 nm=nm+1
-ljk.nm="11110"
-ljka.nm="11110"
+ljk.nm="111110"
+ljka.nm="111110"
 end
 else
 do
