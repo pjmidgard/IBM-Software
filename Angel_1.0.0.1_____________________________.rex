@@ -1650,10 +1650,10 @@ end
 
 
 
-if Angelhg.nm="1011" then
+if Angelhg.nm="1010" then
 do 
 nm=nm-1
-if Angelhg.nm="0000" then
+if Angelhg.nm="0001" then
 do 
 Angelhg.nm="1111"
 nm=nm+1
