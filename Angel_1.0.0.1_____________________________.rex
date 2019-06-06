@@ -1657,7 +1657,7 @@ if Angelhg.nm="0000" then
 do 
 Angelhg.nm="1111"
 nm=nm+1
-Angelhg.nm="111100"
+Angelhg.nm="1111110"
 end
 else
 do
