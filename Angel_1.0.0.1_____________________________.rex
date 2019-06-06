@@ -1655,7 +1655,7 @@ do
 nm=nm-1
 if Angelhg.nm="0000" then
 do 
-Angelhg.nm="11110"
+Angelhg.nm="1111"
 nm=nm+1
 Angelhg.nm="11110"
 end
