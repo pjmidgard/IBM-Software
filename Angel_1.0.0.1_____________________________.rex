@@ -1604,7 +1604,7 @@ if ljk.nm="1010" & kali<>3 then
 do 
 ljka.nm="1111"
 nm=nm+1
-ljka.nm="111111"
+ljka.nm="111110"
 kagsfa=kagsfa+1
 kali=3
 end
@@ -1639,8 +1639,8 @@ do
 ljk.nm="1111"
 ljka.nm="1111"
 nm=nm+1
-ljk.nm="11111"
-ljka.nm="11111"
+ljk.nm="11110"
+ljka.nm="11110"
 end
 else
 do
@@ -1650,14 +1650,14 @@ end
 
 
 
-else if Angelhg.nm="1011" then
+if Angelhg.nm="1011" then
 do 
 nm=nm-1
 if Angelhg.nm="0000" then
 do 
-Angelhg.nm="1111"
+Angelhg.nm="11110"
 nm=nm+1
-Angelhg.nm="1111"
+Angelhg.nm="11110"
 end
 else
 do
