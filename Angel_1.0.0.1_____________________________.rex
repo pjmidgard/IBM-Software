@@ -1600,9 +1600,9 @@ nm=nm-1
 kagsa=kagsa+1
 if ljk.nm="1010" then
 do 
-ljka.nm="1111"
-nm=nm+1
 ljka.nm="11110101"
+nm=nm+1
+ljka.nm="1111"
 kagsfa=kagsfa+1
 kali=3
 end
@@ -1619,11 +1619,11 @@ do
 nm=nm-1
 if Angelhg.nm="1111" then
 do 
-ljk.nm="1111"
-ljka.nm="1111"
-nm=nm+1
 ljk.nm="11110111"
 ljka.nm="11110111"
+nm=nm+1
+ljk.nm="1111"
+ljka.nm="1111"
 end
 else
 do
